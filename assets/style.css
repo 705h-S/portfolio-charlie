@@ -1,0 +1,52 @@
+
+body{
+    
+    background-image: url("https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/470470/5107c1158cfe9f8552383ff5490c793ae14c34c9.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+#navList{
+    list-style: none;
+    font-size: larger;
+}
+
+
+.home{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    position: relative;
+    top: 200px;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 200px 10px;
+    border: none;
+    background: transparent;
+}
+
+.img-fluid{
+    border-radius: 25% 25% 25% 25% ;
+}
+
+.d-block{
+    height: 500px;
+    width: 600px;
+    display: flex;
+    align-content: center;
+} 
+
+.carousel{
+    height: 500px;
+    width: 600px;
+}
