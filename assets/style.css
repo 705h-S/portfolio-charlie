@@ -1,0 +1,9 @@
+.home{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    position: relative;
+    top: 200px;
+}
+
