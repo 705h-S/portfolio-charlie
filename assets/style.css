@@ -7,3 +7,9 @@
     top: 200px;
 }
 
+.card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 200px 10px;
+}
