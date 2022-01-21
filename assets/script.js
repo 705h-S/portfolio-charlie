@@ -6,3 +6,9 @@ $(document).ready(function(){
 
     });
 });
+
+$(document).ready(function(){
+    $("#Rresume").click(function(){
+      $("exampleModal").modal();
+    });
+  });
