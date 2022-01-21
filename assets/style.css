@@ -25,3 +25,8 @@
     display: flex;
     align-content: center;
 } 
+
+.carousel{
+    height: 500px;
+    width: 600px;
+}
