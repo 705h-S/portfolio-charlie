@@ -39,18 +39,42 @@ body{
     border-radius: 25% 25% 25% 25% ;
 }
 
+#Skillcard{
+    width: 640px;
+}
+
 .d-block{
-    height: 500px;
-    width: 600px;
+   max-height: 500px;
+    max-width: 600px;
     display: flex;
     align-content: center;
 } 
 
 .carousel{
-    height: 500px;
-    width: 600px;
+   max-height: 500px;
+    max-width: 600px;
 }
 
 #resumeModal{
     color: black;
 }
+
+@media screen and (max-width: 610px) {
+    .d-block{
+        max-height: 300px;
+         max-width: 400px;
+         display: flex;
+         align-content: center;
+     } 
+     
+     .carousel{
+        max-height: 300px;
+         max-width: 400px;
+     }
+
+     #Skillcard{
+         width: 320px;
+     }
+     
+     
+  }
