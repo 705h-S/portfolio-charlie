@@ -6,9 +6,9 @@ $(document).ready(function(){
 
     });
 });
-
+// Resume modal
 $(document).ready(function(){
     $("#Rresume").click(function(){
-      $("exampleModal").modal();
+      $("#resumeModal").modal();
     });
   });
