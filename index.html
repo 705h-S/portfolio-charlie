@@ -22,7 +22,7 @@
 
 
 <header class="container-fluid">
-    <ul class="navbar fixed-top bg-dark justify-content-center">
+    <ul id="navList" class="navbar fixed-top bg-dark justify-content-center">
         <li class="nav-item">
             <a class="nav-link" href="#Home">Home</a>
           </li>
@@ -59,7 +59,8 @@
 <!-- About -->
     <div id="about" class="card align-items-center">
     <!-- About card -->
-    <div data-aos="zoom-in-up" class="card mb-3" style="max-width: 640px;">
+    <div data-aos="zoom-in-up" 
+    data-aos-duration="2000" class="card mb-3" style="max-width: 640px;">
         <div class="row g-0">
           <div class="col-md-4">
             <img src="images/910E249A-DC29-46B3-8190-1A142F041044.JPEG" class="img-fluid" alt="...">
@@ -78,9 +79,9 @@
         <!-- Skills -->
         <div class="card align-items-center">
 
-      <div class="card row bg-dark text-white py-3" style="width: 640px;">
+      <div data-aos="fade-left" data-aos-duration="2000" class="card row bg-dark text-white py-3" style="width: 640px;">
         <h1 class="text-center"> Skills </h1>
-      <div data-aos="zoom-in-up" class="skills">
+      <div class="skills">
         <!-- CSS  -->
         <h2> Frontend</h2>
         <div class="progress">
@@ -122,7 +123,7 @@
 
    <span id="Projects"></span> 
 <!-- portfolio  -->
-<div data-aos="zoom-in-up" class="card align-items-center">
+<div data-aos="zoom-in-up" data-aos-duration="2000" class="card align-items-center">
     <h1> Projects</h1>
 
     <div id="carouselProjects" class="carousel slide my-5" data-bs-ride="carousel">
@@ -168,9 +169,10 @@
 
 <span id="Contact"></span>
 <!-- contact me -->
-<div data-aos="zoom-in-up" class="card align-items-center">
-    <h1> Contact Me</h1>
+<div data-aos="zoom-in-right" data-aos-duration="2000" class="card align-items-center">
+
     <div class="card">
+        <h1 class="text-center"> Contact Me </h1>
         <div class="card-body text-center">
           <p class="fs-4"> See me as part of your team or would like me to build you an Web application? </p>
           <p class="fs-4"> Feel free to contact me.</p> 
