@@ -12,4 +12,9 @@
     justify-content: center;
     flex-direction: column;
     margin: 200px 10px;
+    /* border: none; */
+}
+
+.img-fluid{
+    border-radius: 25% 25% 25% 25% ;
 }
