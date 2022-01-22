@@ -33,9 +33,10 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 200px 10px;
+    margin-top: 200px; 
     border: none;
     background: transparent;
+
 }
 
 .img-fluid{
@@ -65,6 +66,8 @@ body{
 }
 
 @media screen and (max-width: 610px) {
+
+
     .d-block{
         max-height: 300px;
          max-width: 400px;
@@ -77,6 +80,11 @@ body{
          max-width: 400px;
      }
 
+     .card{
+         width: 320px;
+         margin: 200px 4px;
+
+     }
      #Skillcard{
          width: 320px;
      }
@@ -88,8 +96,12 @@ body{
          visibility: visible;
          color: white;
          font-size: larger;
+         width: auto;
      }
      #about{
+         width: 320px;
+     }
+     .home{
          width: 320px;
      }
   }
