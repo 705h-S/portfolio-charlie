@@ -21,7 +21,8 @@
 <body>
 
 
-<header class="container-fluid">
+<header>
+  <!-- fullscreen -->
     <ul id="navList" class="navbar fixed-top bg-dark justify-content-center">
         <li class="nav-item">
             <a class="nav-link" href="#Home">Home</a>
@@ -41,6 +42,12 @@
             <a class="nav-link" href="#Contact">Contact Me</a>
           </li>
       </ul>
+      <!-- mobile navbar -->
+      <nav id="navMobile" class="navbar navbar-light bg-dark fixed-top">
+          <div class="container-fluid justify-content-center">
+            <a id="Rresume"class="btn btn-outline-primary fs-3" href="#resume" data-bs-toggle="modal" data-bs-target="#resumeModal">Resume</a>
+          </div>
+      </nav>
 </header>
 
 <div id="Home" class="container-md">
@@ -59,15 +66,15 @@
 <div class="cards">
 
 <!-- About -->
-    <div id="about" class="card align-items-center">
+    <div class="card align-items-center">
     <!-- About card -->
-    <div data-aos="zoom-in-up" 
-    data-aos-duration="2000" class="card mb-3" style="max-width: 640px;">
+    <div id="about" data-aos="zoom-in-up" 
+    data-aos-duration="2000" class="card mb-3">
         <div class="row g-0">
-          <div class="col-md-4">
-            <img src="images/910E249A-DC29-46B3-8190-1A142F041044.JPEG" class="img-fluid" alt="...">
+          <div class="col-sm-4">
+            <img src="images/910E249A-DC29-46B3-8190-1A142F041044.JPEG" class="img-fluid" alt="Applemoji avatar ">
           </div>
-          <div class="col-md-8">
+          <div class="col-sm-8">
             <div class="card-body">
               <h5 class="card-title">About</h5>
               <p class="card-text">Hello, My Name is Joshua Meza, and I aspire to be a full stack web devloper. My interest in web devlopment started in highschool

@@ -11,6 +11,9 @@ body{
     font-family: 'ABeeZee', sans-serif;
 }
 
+#navMobile{
+    visibility: hidden;
+}
 #navList{
     list-style: none;
     font-size: larger;
@@ -38,7 +41,9 @@ body{
 .img-fluid{
     border-radius: 25% 25% 25% 25% ;
 }
-
+#about{
+    max-width:640px;
+}
 #Skillcard{
     width: 640px;
 }
@@ -75,6 +80,16 @@ body{
      #Skillcard{
          width: 320px;
      }
-     
-     
+
+     #navList{
+         display: none;
+     }
+     #navMobile{
+         visibility: visible;
+         color: white;
+         font-size: larger;
+     }
+     #about{
+         width: 320px;
+     }
   }
