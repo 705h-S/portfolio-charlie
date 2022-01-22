@@ -50,3 +50,7 @@ body{
     height: 500px;
     width: 600px;
 }
+
+#resumeModal{
+    color: black;
+}

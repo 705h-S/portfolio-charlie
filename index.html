@@ -30,7 +30,9 @@
           <a class="nav-link" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#resume">Resume</a>
+
+          <a id="Rresume"class="nav-link" href="#resume" data-bs-toggle="modal" data-bs-target="#resumeModal">Resume</a>
+
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#Projects">Projects</a>
@@ -190,12 +192,36 @@
 </div>
 </div>
 
+<!-- Modal for Resume -->
+
+  <!-- Modal -->
+  <div class="modal fade" id="resumeModal" tabindex="-1" aria-labelledby="resumeModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="resumeModalLabel">Resume</h5>
+          <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Hey ! Thank you for being interested in looking at my Resume!
+          Not a perfect candidate? Come back in another month.
+          I am always learning and improving so my Resume and skills set will change.
+        Feel free to downlaod a PDF version of my resume if you or know someone who would be interested.
+        </div>
+        <div class="modal-footer ">
+          <a href="images/resume.pdf" download="JoshuaMezaResume" class="btn btn-primary btn-lg" target="_blank" tabindex="-1" role="button" aria-disabled="true">Download</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
 <footer class="text-center my-4">
     <p><small class="text-muted"> Designed & Built by Joshua Meza </small></p>
     
 </footer>
   
-    
+    <!-- PDF Viwer -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.12.313/pdf.min.js" integrity="sha512-qa1o08MA0596eSNsnkRv5vuGloSKUhY09O31MY2OJpODjUVlaL0GOJJcyt7J7Z61FiEgHMgBkH04ZJ+vcuLs/w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <!-- jquery -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <!-- Bootstrap -->
