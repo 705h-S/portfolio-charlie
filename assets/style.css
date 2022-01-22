@@ -33,7 +33,8 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-top: 200px; 
+    margin-top: 200px ; 
+    margin-bottom: 200px;
     border: none;
     background: transparent;
 
